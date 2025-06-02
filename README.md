@@ -1,13 +1,9 @@
-# React + Vite
+Prototype Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# examensarbete-attendant
+1. Applies the company’s latest design system for a consistent and modern look.
+2. Clicking a notification opens its details in the right-side panel.
+3. Notifications can be managed both from the right panel and the header notification list.
+4. In the right panel, you can resolve requests by clicking icons or swiping left/right.
+5. In the list view, swipe left or right to resolve requests.
+6. After resolving a notification, it returns to its normal state.
+7. Responsive design: on mobile screens, notification cards switch to a list layout and the right panel moves to the bottom.
